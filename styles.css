@@ -1,11 +1,17 @@
 body {
     background-color: rgb(255, 255, 165);
+    text-align: center; /* Centra el contenido horizontalmente */
 }
 
-.image{
+.image {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
+
+h1, h2, p, a {
+    text-align: center; /* Centra el texto horizontalmente */
 }
 
 .link-button {
@@ -16,4 +22,5 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    display: inline-block; /* Alinea los botones en línea y los centra horizontalmente */
 }
