@@ -3,9 +3,12 @@ body {
 }
 
 .image{
-    border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+}
+
+.image:hover {
+    border: 5px solid green; /* Muestra el borde verde al pasar el cursor sobre la imagen */
 }
 
 .link-button {
